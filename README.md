@@ -1,7 +1,7 @@
 minidemod
 =========
 
-The purpose of <tt>minidemod-wfm</tt> is to have a C program with a few lines that can actually demodulate WFM from an I/Q input. 
+The purpose of <tt>minidemod-wfm</tt> is to have a few lines long C program that can actually demodulate WFM from an I/Q input. 
 
 The whole DSP chain is built by OS pipes, just like this:
 
@@ -10,6 +10,8 @@ The whole DSP chain is built by OS pipes, just like this:
 Read like this:
 
 <tt>rtl_sdr (acquires samples) | minidemod-wfm (demodulates) | sox (low pass filter + decimation) | mplayer (audio output) </tt>
+
+To run it, you will need a Linux box with <tt>rtl_sdr tcc sox mplayer</tt> installed.
 
 ##Authors
 
