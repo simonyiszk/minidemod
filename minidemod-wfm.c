@@ -35,6 +35,7 @@ Some parameters of rtl_sdr - e.g. frequency and gain - should be acquired by exp
 */
 
 #include <math.h>
+#include <stdio.h>
 
 int main()
 {
