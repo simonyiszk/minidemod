@@ -74,7 +74,7 @@ int main()
 		// Now let's use signed 16 bit output rather than 8 bit unsigned.
 		s=((SHRT_MAX-1)/PI)*dphi; //Okay so let's get the actual sample. dphi should be between -PI and +PI.
 
-		//Note that you can't do this on CPU / DSP architectures that can't do floating point operations.
+		//Note that you can't do this whole thing on CPU / DSP architectures that can't do floating point operations.
 		//Hence the easy formula in minidemod-wfm.c
 
 		fwrite(&s, sizeof(short), 1, stdout);
