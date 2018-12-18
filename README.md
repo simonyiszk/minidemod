@@ -32,6 +32,14 @@ If you need a fully fledged command-line DSP tool for SDR, see my CSDR project h
 
 https://github.com/simonyiszk/csdr
 
+## How this tool can be used in the classroom
+
+I used this tool to introduce some fellow students to SDR, after a short explanation on SDR and modulations in general. 
+
+I showed them the code, but previously deleted the formula that does the actual calculation, turning this into a fun exercise: they had to figure out that one line themselves.
+
+If they entered the correct formula, the success was immediate: audio was playing through the speakers. 
+
 Authors
 -------
 
