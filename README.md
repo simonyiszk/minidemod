@@ -32,7 +32,7 @@ If you need a fully fledged command-line DSP tool for SDR, see my CSDR project h
 
 https://github.com/simonyiszk/csdr
 
-## How this tool can be used in the classroom
+## How this tool can be used as a demo on SDR
 
 I used this tool to introduce some fellow students to SDR, after a short explanation on SDR and modulations in general. 
 
