@@ -18,6 +18,20 @@ To run it, you will need a Linux box with `rtl_sdr tcc sox mplayer` installed.
 
 I've also added `minidemod-wfm-atan.c` with a detailed explanation of the demodulation process. It does sound better, but uses more CPU (still not more than 10% on my box).
 
+## Follow-up
+
+At SDRA-2018 I gave a talk on writing a simple AM/FM/SSB receiver in C:
+
+https://www.youtube.com/watch?v=-QERqK1XAy0
+
+The code (which actually fits on 2 sheets of A4 paper) can be found here:
+
+https://github.com/ha7ilm/smallrx
+
+If you need a fully fledged command-line DSP tool for SDR, see my CSDR project here:
+
+https://github.com/simonyiszk/csdr
+
 Authors
 -------
 
