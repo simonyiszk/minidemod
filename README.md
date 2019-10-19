@@ -14,6 +14,10 @@ Read like this:
 	rtl_sdr (acquires samples) | minidemod-wfm (demodulates) \
 		| sox (low pass filter + decimation) | mplayer (audio output) `
 
+[For systems with aplay, you can use this instead of mplayer:
+	 aplay -r 48000 -B1000000
+]
+
 To run it, you will need a Linux box with `rtl_sdr tcc sox mplayer` installed.
 
 I've also added `minidemod-wfm-atan.c` with a detailed explanation of the demodulation process. It does sound better, but uses more CPU (still not more than 10% on my box).
